@@ -18,11 +18,5 @@ NMOS_VTL
  M1  ( .S( \vss!  ), .G( \input!  ), .B( \vss!  ),
  .D( \output  ) );
 
-vpulse    
- V0  ( .PLUS( \input!  ), .MINUS( \vss!  ) );
-
-cap    
- C0  ( .PLUS( \output  ), .MINUS( \vss!  ) );
-
 endmodule
 
